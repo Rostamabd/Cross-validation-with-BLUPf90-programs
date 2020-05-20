@@ -6,7 +6,7 @@
 
 ---
 
-BLUPf90 family of programs are well-known collection of softwares for mixed model analysis in animal breeding. In the last decade Misztal group modified programs to conduct the Single Step GBLUP analysis. In genomic prediction, single-step GBLUP has been demonstrated to outperform multi-step GBLUP . However, one of limitation of BLUPf90 family of programs is that user is not able to change the name of output files, in particular in cross-validation (CV) analysis.  In this situation, user has to create different folders and run each fold of cross validation within specific folder and at the end, collect all the results and report the desired statistics.
+BLUPf90 family of programs are well-known collection of softwares for mixed model analysis in animal breeding. In the last decade Misztal group modified programs to conduct the Single Step GBLUP analysis. In genomic prediction, single-step GBLUP has been demonstrated to outperform multi-step GBLUP . However, one of limitation of BLUPf90 family of programs is that user is not able to change the name of output files, in particular for cross-validation (CV) analysis.  In this case, user must create different folders and run each fold of cross validation within specific folder and at the end, collect all the results and report the desired statistics.
 
 In this repository, you can find four key files for running 5-fold CV and 5 replications (25 analysis). 
 
