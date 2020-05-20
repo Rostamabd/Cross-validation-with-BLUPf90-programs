@@ -1,0 +1,31 @@
+DATAFILE
+trainphen.txt
+TRAITS
+3
+FIELDS_PASSED 
+2 4 5
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+2.1309
+EFFECT
+1 cross alpha
+RANDOM
+animal
+FILE
+../ped.txt
+FILE_POS
+1 2 3 0 0
+SNP_FILE
+../geno.txt
+PED_DEPTH
+0
+(CO)VARIANCES
+0.39118
+OPTION missing -999
+OPTION missingAIPL
+OPTION saveGInverse
+OPTION saveA22Inverse
+OPTION chrinfo ../map_file
+Option minfreq 0.01
+
